@@ -5,4 +5,6 @@ def fizzbuzz(int):
         fizz = "Fizz"
     if int % 5 == 0:
         buzz = "Buzz"
-    return fizz+buzz
+    if fizz+buzz != "":
+        return fizz+buzz
+    return str(int)
